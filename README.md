@@ -26,7 +26,12 @@ sopt 안드로이드 파트 세미나 과제
 2차 세미나 후 과제
 
 ### Primary-RecyclerViewPractice
->프래그먼트와 뷰페이저, 리사이클러뷰를 동시에 실습하였다.
+>프래그먼트와 뷰페이저, 리사이클러뷰를 동시에 실습하였다.</br>
+<img src="./3rd-assignment/image/image1.png" width="270px" height="480px"></img>
+<img src="./3rd-assignment/image/image2.png" width="270px" height="480px"></img>
+<img src="./3rd-assignment/image/image3.png" width="270px" height="480px"></img>
+<img src="./3rd-assignment/image/image4.png" width="270px" height="480px"></img>
+
 >```itemDecoration```은 각 아이템에 대한 데코레이션을 적용할 수 있는데 대표적으로 구분선이나 여백을 두는 것에 자주 사용된다
 >이번 실습에서는 여백을 ```15dp``` 주는 방법으로 해보았다.
 >모든 아이템마다 하단 여백을 주고, 마지막 아이템이라면 여백을 주지 않는다.
