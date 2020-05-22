@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+
+    <data>
+
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".JoinActivity">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="211dp"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toTopOf="@+id/edit_id_join"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.37"
+            app:layout_constraintVertical_chainStyle="packed"
+            app:srcCompat="@drawable/join_logo" />
+
+        <EditText
+            android:id="@+id/edit_number_join"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="전화번호"
+            android:inputType="phone"
+            app:layout_constraintBottom_toTopOf="@+id/button_join_join"
+            app:layout_constraintEnd_toEndOf="@+id/edit_name_join"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/edit_name_join"
+            app:layout_constraintTop_toBottomOf="@+id/edit_name_join" />
+
+        <EditText
+            android:id="@+id/edit_id_join"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:ems="10"
+            android:hint="@string/id"
+            android:inputType="text"
+            app:layout_constraintBottom_toTopOf="@+id/edit_password_join"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <EditText
+            android:id="@+id/edit_password_join"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            app:layout_constraintBottom_toTopOf="@+id/edit_email_join"
+            app:layout_constraintEnd_toEndOf="@+id/edit_id_join"
+            app:layout_constraintStart_toStartOf="@+id/edit_id_join"
+            app:layout_constraintTop_toBottomOf="@+id/edit_id_join" />
+
+        <EditText
+            android:id="@+id/edit_email_join"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            app:layout_constraintBottom_toTopOf="@+id/edit_name_join"
+            app:layout_constraintEnd_toEndOf="@+id/edit_password_join"
+            app:layout_constraintStart_toStartOf="@+id/edit_password_join"
+            app:layout_constraintTop_toBottomOf="@+id/edit_password_join" />
+
+        <EditText
+            android:id="@+id/edit_name_join"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="@string/user_name"
+            android:inputType="text"
+            app:layout_constraintBottom_toTopOf="@+id/edit_number_join"
+            app:layout_constraintEnd_toEndOf="@+id/edit_email_join"
+            app:layout_constraintStart_toStartOf="@+id/edit_email_join"
+            app:layout_constraintTop_toBottomOf="@+id/edit_email_join" />
+
+        <Button
+            android:id="@+id/button_join_join"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="가입완료"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/edit_number_join"
+            app:layout_constraintStart_toStartOf="@+id/edit_number_join"
+            app:layout_constraintTop_toBottomOf="@+id/edit_number_join" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
